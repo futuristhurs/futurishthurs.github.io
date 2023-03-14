@@ -4,6 +4,8 @@
     <title>Home Page</title>
     <!-- Link to the style.css file -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- CSS for the slideshow -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   </head>
   <body>
     <nav>
@@ -11,6 +13,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
       </ul>
     </nav>
     <header>
@@ -21,7 +24,7 @@
       <section>
         <h2>About Us</h2>
         <p>We are a company dedicated to providing high-quality products and services to our customers. Learn more about our mission, vision, and values.</p>
-        <a href="#">Learn More</a>
+        <a href="about.html">Learn More</a>
       </section>
       <section>
         <h2>Products</h2>
@@ -35,19 +38,31 @@
       </section>
     </main>
 <!-- HTML for the slideshow -->
-<div class="slideshow-container">
-  <div class="slide fade">
-    <img src="img/1.jpg">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/1.jpg"></div>
+    <div class="swiper-slide"><img src="img/2.jpg"></div>
+    <div class="swiper-slide"><img src="img/3.jpg"></div>
+    <div class="swiper-slide"><img src="img/4.jpg"></div>
+    <div class="swiper-slide"><img src="img/5.jpg"></div>
+    <div class="swiper-slide"><img src="img/6.jpg"></div>
+    <div class="swiper-slide"><img src="img/7.jpg"></div>
+    <div class="swiper-slide"><img src="img/8.jpg"></div>
+    <div class="swiper-slide"><img src="img/9.jpg"></div>
   </div>
-
-  <div class="slide fade">
-    <img src="img/2.jpg">
-  </div>
-
-  <div class="slide fade">
-    <img src="img/3.jpg">
-  </div>
+  <div class="swiper-pagination"></div>
 </div>
+
+
+
+<!-- JavaScript for the slideshow -->
+<script src="js/slideshow.js"></script>
+
+<!-- HTML for the home feed -->
+<div id="home-feed"></div>
+
+<!-- JavaScript for the home feed -->
+<script src="js/homefeed.js"></script>
 
 
   </body>
