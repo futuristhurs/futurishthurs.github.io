@@ -3,14 +3,20 @@
   <head>
     <title>Login Page</title>
     <!-- Link to the style.css file -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+     <!-- Link to the slideshow.js file -->
+    <script src="js/slideshow.js"></script>
+
+    <!-- Link to the homefeed.js file -->
+    <script src="js/homefeed.js"></script>
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <div class="login-form">
       <h2>Login</h2>
-      <form action="login.php" method="post" onsubmit="return validateLoginForm()">
+      <form action="home.html" method="post" onsubmit="return validateLoginForm()">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username"><br>
 
@@ -33,10 +39,7 @@
 
     <script src="script.js"></script>
 
-    <!-- Link to the slideshow.js file -->
-    <script src="js/slideshow.js"></script>
-
-    <!-- Link to the homefeed.js file -->
-    <script src="js/homefeed.js"></script>
+   
+    
   </body>
 </html>
