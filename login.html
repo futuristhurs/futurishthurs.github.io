@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div class="login-form">
+      <h2>Login</h2>
+      <form action="login.php" method="post" onsubmit="return validateLoginForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <span id="login-error-message"></span>
+
+        <input type="submit" value="Login">
+
+
+        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+
+      </form>
+      <p>Don't have an account? <a href="signup.html">Sign up</a> now.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
