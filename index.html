@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Link to the style.css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <nav>
@@ -33,5 +34,34 @@
         <a href="#">Contact Us</a>
       </section>
     </main>
+<!-- HTML for the slideshow -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/1.jpg"></div>
+    <div class="swiper-slide"><img src="img/2.jpg"></div>
+    <div class="swiper-slide"><img src="img/3.jpg"></div>
+    <div class="swiper-slide"><img src="img/4.jpg"></div>
+    <div class="swiper-slide"><img src="img/5.jpg"></div>
+    <div class="swiper-slide"><img src="img/6.jpg"></div>
+    <div class="swiper-slide"><img src="img/7.jpg"></div>
+    <div class="swiper-slide"><img src="img/8.jpg"></div>
+    <div class="swiper-slide"><img src="img/9.jpg"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- CSS for the slideshow -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- JavaScript for the slideshow -->
+<script src="js/slideshow.js"></script>
+
+<!-- HTML for the home feed -->
+<div id="home-feed"></div>
+
+<!-- JavaScript for the home feed -->
+<script src="js/homefeed.js"></script>
+
+
   </body>
 </html>

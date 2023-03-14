@@ -1,0 +1,143 @@
+.login-form, .signup-form {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login-form h2, .signup-form h2 {
+  margin-top: 0;
+}
+
+.login-form label, .signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.login-form input[type="text"], .signup-form input[type="text"], .login-form input[type="password"], .signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="submit"], .signup-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover, .signup-form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.login-form p, .signup-form p {
+  margin-top: 20px;
+}
+
+.login-form p a, .signup-form p a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-image: url('header-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 6rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem;
+}
+
+section {
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  max-width: 400px;
+  padding: 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+section a {
+  background-color: #333;
+  border-radius: 0.5rem;
+  color: #fff;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+section a:hover {
+  background-color: #555;
+}
