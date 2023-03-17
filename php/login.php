@@ -1,1 +1,1 @@
-header('Location: home.html');
+header('Location: html/home.html');
